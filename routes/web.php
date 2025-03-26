@@ -21,5 +21,7 @@ Route::get('/login', [App\Http\Controllers\Login::class, 'login'])->name('pagina
 Route::get('/registro', [App\Http\Controllers\Registro::class, 'registro'])->name('pagina-registro');
 Route::get('/detalhes', [App\Http\Controllers\DetalhesAnimal::class, 'detalhesAnimal'])->name('pagina-registro');
 
+Route::post('/registro', [App\Http\Controllers\Registro::class, 'criarConta'])->name('pagina-registro');
+
 
 
