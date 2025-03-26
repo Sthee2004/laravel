@@ -1,10 +1,7 @@
 @extends('_partials/main')
 
 @section('conteudo')
- <!-- Cabeçalho -->
- <div class="animal-header">
-      <h1>Animais para Adoção</h1>
-    </div>
+
 
     <!-- Lista de Animais -->
     <div class="container">

@@ -95,3 +95,205 @@
   .btn-details:hover {
     background-color: #7AB8BF; /* Cor do botão ao passar o mouse */
   }
+
+
+  /* CSS PAGINA REGISTRO*/ 
+  body {
+    background-color: #C4EEF2; /* Cor de fundo da página */
+  }
+  .register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .register-container h2 {
+    color: #025159; /* Cor do título */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #7AB8BF; /* Cor da borda dos campos */
+  }
+  .form-control:focus {
+    border-color: #3F858C; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(63, 133, 140, 0.5); /* Sombra ao focar */
+  }
+  .btn-register {
+    background-color: #A67458; /* Cor do botão */
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+  .btn-register:hover {
+    background-color: #7AB8BF; /* Cor do botão ao passar o mouse */
+  }
+  .login-link {
+    color: #3F858C; /* Cor do link */
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
+  .login-link:hover {
+    color: #025159; /* Cor do link ao passar o mouse */
+  }
+
+  /* CSS adocao */
+  body {
+    background-color: #C4EEF2; /* Cor de fundo da página */
+  }
+  .register-animal-header {
+    background-color: #025159; /* Cor do cabeçalho */
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .register-animal-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  .register-animal-container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #7AB8BF; /* Cor da borda dos campos */
+  }
+  .form-control:focus {
+    border-color: #3F858C; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(63, 133, 140, 0.5); /* Sombra ao focar */
+  }
+  .btn-register-animal {
+    background-color: #A67458; /* Cor do botão */
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .btn-register-animal:hover {
+    background-color: #7AB8BF; /* Cor do botão ao passar o mouse */
+  }
+  
+  /* CSS DETALHES ANIMAL*/
+  body {
+    background-color: #C4EEF2; /* Cor de fundo da página */
+  }
+  .animal-details-header {
+    background-color: #025159; /* Cor do cabeçalho */
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .animal-details-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  .animal-details-container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  .animal-details-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .animal-details-title {
+    color: #025159; /* Cor do título */
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+  }
+  .animal-details-text {
+    color: #3F858C; /* Cor do texto */
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  .animal-details-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .animal-details-list li {
+    margin-bottom: 10px;
+    color: #3F858C;
+  }
+  .btn-contact {
+    background-color: #A67458; /* Cor do botão */
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .btn-contact:hover {
+    background-color: #7AB8BF; /* Cor do botão ao passar o mouse */
+  }
+
+  /* CSS LOGIN*/
+  body {
+    background-color: #C4EEF2; /* Cor de fundo da página */
+  }
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .login-container h2 {
+    color: #025159; /* Cor do título */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #7AB8BF; /* Cor da borda dos campos */
+  }
+  .form-control:focus {
+    border-color: #3F858C; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(63, 133, 140, 0.5); /* Sombra ao focar */
+  }
+  .btn-login {
+    background-color: #A67458; /* Cor do botão */
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+  .btn-login:hover {
+    background-color: #7AB8BF; /* Cor do botão ao passar o mouse */
+  }
+  .forgot-password {
+    color: #3F858C; /* Cor do link */
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
+  .forgot-password:hover {
+    color: #025159; /* Cor do link ao passar o mouse */
+  } 
